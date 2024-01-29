@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+li{
+    list-style: none;
+}
+.navbar{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #1C1B1F;
+    min-height: 210px;
+    height: auto;
+}
+.head{
+    height: 130px;
+    width: 90%;
+    margin-left: 5%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.divider{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.logo{
+    color: #CCAC00;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+}
+.nn{
+    display: flex;
+    width: 130px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nn h1 {
+    color: var(--Text-main-color, #FFF);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.nn h2{
+    width: 24px;
+    height: 24px;
+}
+.wrapper{
+    width: 1px;
+    height: 20px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%), #FFF;
+}
+.svgs{
+    display: flex;
+    width: 172px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.dividerwrapper{
+    width: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%), #A9A9A9;
+    height: 1px;
+}
+.secondd{
+    display: flex;
+    width: 85%;
+    margin-left: 5%;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 14px;
+}
+.child{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.child h1{
+    color: var(--Text-main-color, #FFF);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/*Responsive*/
+@media(max-width: 1300px){
+    .child h1{
+        font-size: 20px;
+    }
+    .logo{
+        font-size: 30px;
+    }
+}
+@media(max-width: 1100px){
+    .child h1{
+        font-size: 15px;
+    }
+}
+@media(max-width: 900px){
+    .nn h1{
+        font-size: 11px;
+    }
+    .resp{
+        width: 20px;
+        height: 20px;
+    }
+    .svgs{
+        width: 100px;
+    }
+    .svgs svg{
+        width: 20px;
+        height: 20px;
+    }
+} 
+@media(max-width: 500px){
+    /* .nn h1{
+        font-size: 9px;
+    }
+    .resp{
+        width: 15px;
+        height: 15px;
+    }
+    .svgs svg{
+        width: 15px;
+        height: 15px;
+    } */
+}
+@media(max-width: 480px){
+    .logo{
+        font-size: 25px;
+    }
+}
+@media(max-width: 380px){
+    .nn{
+        padding: 0px;
+        width: 90px;
+    }
+    .svgs{
+        width: 90px;
+    }
+    .logo{
+        font-size: 22px;
+    }
+}
+.hidden{
+    width: 100%;
+    height: 350px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clothes{
+    width: 100%;
+    display: flex;
+    height: 349px;
+    /* padding: 20px 80px; */
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-radius: 0px 0px 0px 25px;
+    background: #FFF;
+}
+.lists{
+    display: flex;
+    width: 40%;
+    height: 349px;
+    padding: 20px 80px;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+.firstul{
+    display: flex;
+    height: 249px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.firstul li{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 3.5px;
+    line-height: normal;
+}
+.secondul{
+    display: flex;
+    /* height: 249px; */
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.secondul li{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 3.5px;
+    line-height: normal;
+}
+.imagedivider{
+    width: 50%;
+    height: 350px;
+    background-image: url(./../images/dropdownimage.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

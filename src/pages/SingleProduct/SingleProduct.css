@@ -1,0 +1,299 @@
+.single{
+    width: 100%;
+    background-color: #fff;
+}
+.single-heading{
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hhhee{
+    display: flex;
+    width: 623px;
+    height: 27px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+.hhhee p {
+    color: var(--background-color, #000);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.hhhee b{
+    color: var(--background-color, #000);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: normal;
+}
+.single-two{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.bolder{
+    color: var(--background-color, #000);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.single-two h1{
+    color: var(--background-color, #000);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* 
+.ragwrapper{
+    width: 172px;
+    height: 1px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 100%), #A9A9A9;
+}
+.rag h1{
+    color: var(--accent-collor, #A9A9A9);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.newss{
+    width: 172px;
+    height: 15.183px;
+    flex-shrink: 0;
+    stroke-width: 1px;
+    stroke: var(--accent-collor, #A9A9A9);
+} */
+.single-product-page{
+    width: 95%;
+    margin-left: 2.5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.currentProduct-image{
+    width: 507.756px;
+}
+/* .single-info{
+} */
+
+.prnmds {
+    text-align: left;
+}
+.prnmds h1, .prnmds p{
+    margin: 0;
+}
+.product-name{
+    color: var(--background-color, #000);
+    font-family: Montserrat;
+    font-size: 24.5px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 15px;
+}
+.product-description{
+    color: #5B5B5B;
+    font-family: Montserrat;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 35px;
+}
+.product-price{
+    color: var(--background-color, #000);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.VAT{
+    margin-top: 10px;
+    color: var(--grey-2, #404040);
+    font-family: Montserrat;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.size{
+    width: 336px;
+    margin-top: 36px;
+    
+}
+.size-chart{
+    border: 1px solid var(--accent-collor, #A9A9A9);
+    display: flex;
+    width: 336px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.size-chart h1{
+    color: var(--grey-2, #404040);
+    font-family: Montserrat;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.sizes{
+    display: flex;
+    width: 307px;
+    height: 177px;
+    padding: 10px 25px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border: 1px solid #878787;
+    background: #F1EFEF;
+}
+.sizes h1{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.shipping{
+    margin-top: 10px;
+    display: flex;
+    width: 479px;
+    height: 124px;
+    padding: 20px 25px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+.shipping h1{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.shipping p{
+    color: var(--grey-2, #404040);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.sizee{
+    width: 528px;
+    height: 60.626px;
+    padding: 11.023px;
+}
+.size-chartt{
+    border: 1px solid var(--accent-collor, #A9A9A9);
+    display: flex;
+    width: 528px;
+    height: 60.626px;
+    padding: 11.023px;
+    justify-content: space-between;
+    align-items: center;
+}
+.size-chartt h1{
+    color: var(--grey-2, #404040);
+    font-family: Montserrat;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.sizess{
+    display: flex;
+    width: 501px;
+    height: 177px;
+    padding: 10px 25px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border: 1px solid #878787;
+    background: #F1EFEF;
+}
+.sizess h1{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.uli{
+    margin-top: 100px;
+}
+.uli ul li {
+    text-align: left;
+    color: #5B5B5B;
+    font-family: Montserrat;
+    font-size: 19.637px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 11.023px 0px;
+}
+
+.wishlist-div button{
+    display: flex;
+    width: 324px;
+    height: 60px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid var(--accent-collor, #A9A9A9);
+    background: #FFF;
+    color: var(--grey-2, #404040);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.similar-heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.half{
+    width: 42%;
+    height: 3px;
+    background-color: #A9A9A9;
+}
+.bottom{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bot{
+    width: 30%; 
+    
+}
+.tom{
+    width: 60%;
+}

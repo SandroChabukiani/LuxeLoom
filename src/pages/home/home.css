@@ -1,0 +1,41 @@
+.qali{
+    background-image: url(./../../images/qali.png);
+    width: 100%;
+    height: 555px;
+    background-size: cover;
+}
+.onetwo{
+    float: left;
+    text-align: left;
+    padding-left: 10%;
+    padding-top: 124px;
+}
+.hh{
+    padding-top: 36px;
+}
+.onetwo h1{
+    color: var(--Text-main-color, #FFF);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.threefour{
+    display: inline-flex;
+    padding: 1px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid var(--Text-main-color, #FFF);
+    margin-top: 95px;
+}
+.threefour h1{
+    color: var(--Text-main-color, #FFF);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
